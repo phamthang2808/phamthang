@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Câu 1: Tạo form Đăng ký tài khoản</h2>
+    <p>Yêu cầu: Tạo form Đăng ký tài khoản như bên dưới.</p>
+    <form action="">
+        <label for="hoten" >Họ tên:</label>
+        <br>
+        <input type="text" id = "hoten" name = ho_ten placeholder="vi du Phamthang">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" id="email" name ="email" placeholder="vi du thang@gmail.com">
+        <br>
+        <label for="matkhau">Mật khẩu:</label>
+        <br>
+        <input type="text" id="matkhau" name="matkhau">
+        <br>
+        <input type="submit" value="gui">
+    </form>
+    <h2>Câu 2: Tạo form Đăng ký chi tiết</h2>
+    <p>Yêu cầu: Tạo form Đăng ký chi tiết như bên dưới.</p>
+    <form>
+       <label for="gioitinh">Giới tính:</label>
+       <br>
+       <input type="radio" name="n" id="nam" value="Nam">
+       <label for="nam">Nam</label>
+       <br>
+       <input type="radio" name="n" id="nu" value="Nữ">
+       <label for="nu">Nữ</label>
+       <br>
+       <input type="radio" name="n" id="khac" value="Khác">
+       <label for="khac">Khác</label>
+       <br>
+       <label for="quocgia">Quốc gia:</label>
+       <br>
+       <select id="country" name="country">
+        <option value="Vietnamese">Viet Nam</option>
+        <option value="ThaiLand" selected>Thai Lan</option>
+        <option value="Japanese">Nhat Ban</option>
+       </select>
+       <br>
+       <br>
+       <button>Đăng ký</button>
+    </form>
+       <h2>Câu 3: Tạo form Đánh giá sản phẩm</h2>
+       <p>Yêu cầu: Tạo form Đánh giá sản phẩm như bên dưới.</p>
+       <form>
+        <label for="sanpham">Tên sản phẩm:</label>
+        <br>
+        <input type="text" name="sanpham" id="sanpham">
+        <br>
+        <label for="danhgia">Đánh giá:</label>
+        <br>
+       <input type="radio" id="5sao" name="sao" value="5 sao">
+       <label for="5sao">5 sao</label>
+       <br>
+       <input type="radio" id="4sao" name="sao" value="4 sao">
+       <label for="5sao">4 sao</label>
+       <br>
+       <input type="radio" id="3sao" name="sao" value="3 sao">
+       <label for="5sao">3 sao</label>
+       <br>
+       <input type="radio" id="2sao" name="sao" value="2 sao">
+       <label for="5sao">2 sao</label>
+       <br>
+       <input type="radio" id="1sao" name="sao" value="1 sao">
+       <label for="5sao">1 sao</label>
+       <br>
+       <label for="cmt">Bình luận:</label>
+       <br>
+       <textarea rows="4" ></textarea>
+       <br>
+       <br>
+       <button>Gửi đánh giá</button>
+       </form>
+       <h2>Câu 4: Tạo form Liên hệ</h2> 
+       <p>Yêu cầu: Tạo form Liên hệ như bên dưới.</p> 
+       <h2>Câu 5: Tạo form Đặt phòng khách sạn</h2>
+       <p>Yêu cầu: Tạo form Đặt phòng khách sạn như bên dưới.</p>
+       <form>
+        <label for="ten">Họ và tên:</label>
+        <br>
+        <input type="text" id="ten" name="ten">
+        <br>
+        <label for="emai">Email:</label>
+        <br>
+        <input type="text" id="emai" name="emai">
+        <br>
+        <label for="ngaynhanphong">Ngày nhận phòng</label>
+        <br>
+        <input type="date" id="ngaynhanphong" name="ngaynhanphong">
+        <br>
+        <label for="ngaytraphong">Ngày trả phòng</label>
+        <br>
+            <input type="date" id="Ngày" name="ngaytraphong">
+        <br>
+        <label for="loaiphong">Loại phòng:</label>
+        <select id="loaiphong" name="loaiphong">
+        <option value="thongthuong">phong thuong</option>
+        <option value="vip">vip pro</option>
+        <option value="giadinh">family</option>
+        </select>
+        <br>
+        <label for="yeucaudacbiet">Yêu cầu đặc biệt:</label>
+        <br>
+        <textarea rows="4"></textarea>
+        <br>
+        <br>
+        <button>Đặt phòng</button>
+       </form>
+      <h2>Câu 6: Tạo form Tìm kiếm</h2>
+      <p> <b>Yêu cầu:</b> Tạo form Tìm kiếm như bên dưới.</p>
+      <input type="text" id="tukhoa" name="tukhoa" placeholder="nhap tu khoa...">
+      <button>tim kiem</button>
+      <h2>tu hoc</h2>
+      <form action="">
+        <input type="time" id="tg" name="tg">
+        <br>
+        <input type="datetime-local">
+        <br>
+        <input type="file">
+        <br>
+        <input type="checkbox" name="hoaqua">
+        <label for="hoaqua">chuoi</label>
+        <br>
+        <input type="checkbox" name="hoaqua">
+        <label for="hoaqua">cam</label>
+        <br>
+        <input type="checkbox" name="hoaqua">
+        <label for="hoaqua">dua</label>
+        <br>
+        <input type="submit" value="gui">
+      </form>
+</body>
+</html>
